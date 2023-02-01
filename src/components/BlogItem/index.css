@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-heading {
+  color: #12022f;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.published-date {
+  color: #616e7c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.description {
+  color: #9aa5b1;
+  font-size: 15px;
+  font-weight: bold;
+}
